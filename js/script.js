@@ -1,25 +1,25 @@
 //Mail////
 
-// const allowedEmails = [
-//   'anna.spjut@gmail.com',
-//   'pinko.pallino@gmail.com',
-//   'mario.rossi@gmail.com',
-//   'giuseppe.verdi@gmail.com',
-//   'maria@gmail.com',
-//   'boolean@gmail.com',
-// ]
+const allowedEmails = [
+  'anna.spjut@gmail.com',
+  'pinko.pallino@gmail.com',
+  'mario.rossi@gmail.com',
+  'giuseppe.verdi@gmail.com',
+  'maria@gmail.com',
+  'boolean@gmail.com',
+]
 
-// const userEmail = prompt('Inserisci la tua mail');
+const userEmail = prompt('Inserisci la tua mail');
 
-// for(let i = 0; i < allowedEmails.length; i++){
-//   const email = allowedEmails[i];
-//   if(email === userEmail){
-//     document.querySelector('h1').innerHTML = `Sei un utente iscritto, hai accesso!`
-//   }
-//   else{
-//     document.querySelector('h1').innerHTML = `Mi dispiace non sei iscritto, non hai accesso!`
-//   }
-// };
+for(let i = 0; i < allowedEmails.length; i++){
+  const email = allowedEmails[i];
+  if(email === userEmail){
+    document.querySelector('h1').innerHTML = `Sei un utente iscritto, hai accesso!`
+  }
+  else{
+    document.querySelector('h1').innerHTML = `Mi dispiace non sei iscritto, non hai accesso!`
+  }
+};
 
 
 
